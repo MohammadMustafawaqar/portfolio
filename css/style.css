@@ -1,29 +1,4 @@
-/*=======================================================================
-	
-	Item Name 		|		Symp - Responsive One Page VCard/Resume Template
-	
-	Author Name		|		Noman Ali Samejo
-	
--------------------------------------------------------------------------
-	CSS Structure
--------------------------------------------------------------------------
-	
-	01- General CSS
-	02- Preloader
-	03- Front Section
-	04- About Section
-	05- Resume Section
-	06- Services Section
-	07- Blog Section
-	08- Portfolio Section
-	09- Contact Section
-	10- Work Page
-	11- Single Post Page
-	12- Responsive CSS
-	
-	*Colors are in separate files.
-	
-=======================================================================*/
+
 
 
 
@@ -356,9 +331,9 @@ body.section-show .transition-mask{
 	width:500px;
 	left:0;
 	right:0;
-	margin:auto;
+/* 	margin:auto; */
 	z-index:22;
-	transform:rotate(45deg);
+/* 	transform:rotate(45deg); */
 	overflow:hidden;
 	-webkit-animation: fill2 .8s .4s both ease;
 	-moz-animation: fill2 .8s .4s both ease;
