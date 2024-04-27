@@ -2421,7 +2421,7 @@ I have successfully collaborated with clients as a freelancer, delivering high-q
 						<div class='row' >
 							<div class='col-md-8 col-md-offset-2' >
 								
-								<form id='contact-form' class='contact-form' action='mail.php' method='post' data-toggle='validator' >
+								<form id='contact-form' class='contact-form' action='action="http://formspree.io/you@email.com"' method='post' data-toggle='validator' >
 									
 									<div id='contact-form-result' ></div>
 									
@@ -2430,7 +2430,7 @@ I have successfully collaborated with clients as a freelancer, delivering high-q
 										<div class='col-md-6' >
 											
 											<div class='form-group' >
-												<input type='text' class='form-control' placeholder='Name' required>
+												<input type='text' class='form-control' placeholder='Name' required >
 												
 												<div class='help-block with-errors' ></div>
 											</div>
@@ -2439,7 +2439,7 @@ I have successfully collaborated with clients as a freelancer, delivering high-q
 										
 										<div class='col-md-6' >
 											<div class='form-group' >
-												<input type='email' class='form-control' placeholder='Email' required>
+												<input type='email' class='form-control' placeholder='Email' required name="_replay_to">
 												
 												<div class='help-block with-errors' ></div>
 							
@@ -2460,7 +2460,7 @@ I have successfully collaborated with clients as a freelancer, delivering high-q
 										
 										<div class='col-md-6' >
 											<div class='form-group' >
-												<input type='text' class='form-control' placeholder='Website' required>
+												<input type='text' class='form-control' placeholder='Website'>
 												<div class='help-block with-errors' ></div>
 												
 											</div>
@@ -2469,7 +2469,7 @@ I have successfully collaborated with clients as a freelancer, delivering high-q
 									</div>
 									
 									<div class='form-group' >
-										<textarea rows='5' class='form-control' placeholder='Message' required></textarea>
+										<textarea rows='5' class='form-control' placeholder='Message' required name="body"></textarea>
 										<div class='help-block with-errors' ></div>
 									</div>
 									
