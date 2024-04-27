@@ -21,15 +21,14 @@
 		$data['error'] = 'The message field is required!';
 	}else if( empty($phone) ){
 		$data['error'] = 'Please enter your phone number.';
-	}else if ( empty($website) ){
-		$data['error'] = 'Please enter your website.';
+	}
 	}else{
 		
 		$formcontent="From: $name\nPhone: $phone\nWebsite: $website\nEmail: $email\nMessage: $message";
 		
 		
 		//Place your Email Here
-		$recipient = "your_email@domain.com";
+		$recipient = "mustafawaqar488@gmail.com";
 		
 		$mailheader = "From: $email \r\n";
 		
